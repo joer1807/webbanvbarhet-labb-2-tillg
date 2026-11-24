@@ -37,6 +37,14 @@ img {
   top: 0.75rem;              /* Visas när man trycker på Tab-tangenten */
 }
 
+main a {
+  color: #004494;
+  font-weight: 600;
+}
+main a:hover {
+  color: #002b5e;
+}
+
 /* 3. Tydlig fokusram när man navigerar med tangentbord */
 :focus-visible {
   outline: 3px solid #d97706;
